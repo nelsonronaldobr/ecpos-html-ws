@@ -1,6 +1,6 @@
 <?php
 
-$HTML_FILENAME = 'print-content.html';
+$HTML_FILENAME = __DIR__ . '/print-content.html';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['html'])) {
     $html = $_POST['html'];
